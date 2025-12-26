@@ -7,52 +7,52 @@ function Home() {
   const teamPhotos = [
     {
       id: 1,
-      url: '/player_cover_placeholder.png',
+      url: `${import.meta.env.BASE_URL}player_cover_placeholder.png`,
       caption: '球員照片',
     },
     {
       id: 2,
-      url: '/player_cover_placeholder.png',
+      url: `${import.meta.env.BASE_URL}player_cover_placeholder.png`,
       caption: '球員照片',
     },
     {
       id: 3,
-      url: '/player_cover_placeholder.png',
+      url: `${import.meta.env.BASE_URL}player_cover_placeholder.png`,
       caption: '球員照片',
     },
     {
       id: 4,
-      url: '/player_cover_placeholder.png',
+      url: `${import.meta.env.BASE_URL}player_cover_placeholder.png`,
       caption: '球員照片',
     },
     {
       id: 5,
-      url: '/player_cover_placeholder.png',
+      url: `${import.meta.env.BASE_URL}player_cover_placeholder.png`,
       caption: '球員照片',
     },
     {
       id: 6,
-      url: '/player_cover_placeholder.png',
+      url: `${import.meta.env.BASE_URL}player_cover_placeholder.png`,
       caption: '球員照片',
     },
     {
       id: 7,
-      url: '/player_cover_placeholder.png',
+      url: `${import.meta.env.BASE_URL}player_cover_placeholder.png`,
       caption: '球員照片',
     },
     {
       id: 8,
-      url: '/player_cover_placeholder.png',
+      url: `${import.meta.env.BASE_URL}player_cover_placeholder.png`,
       caption: '球員照片',
     },
     {
       id: 9,
-      url: '/player_cover_placeholder.png',
+      url: `${import.meta.env.BASE_URL}player_cover_placeholder.png`,
       caption: '球員照片',
     },
     {
       id: 10,
-      url: '/player_cover_placeholder.png',
+      url: `${import.meta.env.BASE_URL}player_cover_placeholder.png`,
       caption: '球員照片',
     },
   ]
@@ -93,7 +93,7 @@ function Home() {
             {/* Hero Content - Top on mobile/tablet, Left on desktop */}
             <div className="flex-1 flex flex-col items-center justify-center z-10 w-full lg:w-auto">
               <div className="flex justify-center mb-6 md:mb-8 mt-24 lg:mt-0">
-                <img src="/kf-spirit.png" alt="光復精神" className="w-80 sm:w-96 lg:w-[30rem] h-auto object-contain" />
+                <img src={`${import.meta.env.BASE_URL}kf-spirit.png`} alt="光復精神" className="w-80 sm:w-96 lg:w-[30rem] h-auto object-contain" />
               </div>
               <h1 className="text-2xl sm:text-3xl lg:text-4xl font-bold mb-4 md:mb-6 leading-tight text-center">
                 第十屆光復杯籃球邀請賽
@@ -282,7 +282,7 @@ function Home() {
             className="w-64 h-48 flex items-center justify-center bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow cursor-pointer"
           >
             <img
-              src="/sponsor-logo-hsus-legend.png"
+              src={`${import.meta.env.BASE_URL}sponsor-logo-hsus-legend.png`}
               alt="贊助廠商 潭酵天地"
               className="max-w-full max-h-full object-contain"
             />
@@ -294,7 +294,7 @@ function Home() {
             className="w-64 h-48 flex items-center justify-center bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow cursor-pointer"
           >
             <img
-              src="/sponsor-logo-hsus-legend.png"
+              src={`${import.meta.env.BASE_URL}sponsor-logo-hsus-legend.png`}
               alt="贊助廠商 潭酵天地"
               className="max-w-full max-h-full object-contain"
             />
@@ -306,7 +306,7 @@ function Home() {
             className="w-64 h-48 flex items-center justify-center bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow cursor-pointer"
           >
             <img
-              src="/sponsor-logo-hsus-legend.png"
+              src={`${import.meta.env.BASE_URL}sponsor-logo-hsus-legend.png`}
               alt="贊助廠商 潭酵天地"
               className="max-w-full max-h-full object-contain"
             />
