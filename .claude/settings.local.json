@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm create:*)",
+      "Bash(npm install:*)",
+      "Bash(npm run build:*)",
+      "Bash(curl -s \"https://dunhua-basketball.ddns.net/styles.css\")",
+      "Bash(curl:*)",
+      "Bash(cat:*)",
+      "Bash(convert:*)"
+    ]
+  }
+}

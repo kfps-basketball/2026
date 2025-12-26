@@ -1,0 +1,184 @@
+{
+  "players": [
+    {
+      "id": 1,
+      "teamId": 1,
+      "name": "王小明",
+      "number": 10,
+      "team": "敦化國小",
+      "position": "控球後衛",
+      "grade": "四年級"
+    },
+    {
+      "id": 2,
+      "teamId": 1,
+      "name": "李大華",
+      "number": 23,
+      "team": "敦化國小",
+      "position": "得分後衛",
+      "grade": "四年級"
+    },
+    {
+      "id": 3,
+      "teamId": 1,
+      "name": "張志強",
+      "number": 15,
+      "team": "敦化國小",
+      "position": "小前鋒",
+      "grade": "四年級"
+    },
+    {
+      "id": 4,
+      "teamId": 2,
+      "name": "陳俊傑",
+      "number": 7,
+      "team": "敦化國小",
+      "position": "大前鋒",
+      "grade": "五年級"
+    },
+    {
+      "id": 5,
+      "teamId": 2,
+      "name": "林志明",
+      "number": 33,
+      "team": "敦化國小",
+      "position": "中鋒",
+      "grade": "五年級"
+    },
+    {
+      "id": 6,
+      "teamId": 3,
+      "name": "黃建國",
+      "number": 8,
+      "team": "敦化國小",
+      "position": "控球後衛",
+      "grade": "六年級"
+    },
+    {
+      "id": 7,
+      "teamId": 4,
+      "name": "吳文彬",
+      "number": 21,
+      "team": "民生國小",
+      "position": "得分後衛",
+      "grade": "四年級"
+    },
+    {
+      "id": 8,
+      "teamId": 4,
+      "name": "周宏偉",
+      "number": 11,
+      "team": "民生國小",
+      "position": "小前鋒",
+      "grade": "四年級"
+    },
+    {
+      "id": 9,
+      "teamId": 5,
+      "name": "鄭柏均",
+      "number": 5,
+      "team": "健康國小",
+      "position": "控球後衛",
+      "grade": "五年級"
+    },
+    {
+      "id": 10,
+      "teamId": 5,
+      "name": "謝政達",
+      "number": 14,
+      "team": "健康國小",
+      "position": "大前鋒",
+      "grade": "五年級"
+    },
+    {
+      "id": 11,
+      "teamId": 6,
+      "name": "劉冠廷",
+      "number": 9,
+      "team": "中正國小",
+      "position": "中鋒",
+      "grade": "六年級"
+    },
+    {
+      "id": 12,
+      "teamId": 6,
+      "name": "蔡宗翰",
+      "number": 22,
+      "team": "中正國小",
+      "position": "小前鋒",
+      "grade": "六年級"
+    },
+    {
+      "id": 13,
+      "teamId": 7,
+      "name": "楊家豪",
+      "number": 16,
+      "team": "松山國小",
+      "position": "控球後衛",
+      "grade": "四年級"
+    },
+    {
+      "id": 14,
+      "teamId": 8,
+      "name": "許志豪",
+      "number": 4,
+      "team": "信義國小",
+      "position": "得分後衛",
+      "grade": "五年級"
+    },
+    {
+      "id": 15,
+      "teamId": 9,
+      "name": "賴品翰",
+      "number": 12,
+      "team": "大安國小",
+      "position": "小前鋒",
+      "grade": "六年級"
+    },
+    {
+      "id": 16,
+      "teamId": 10,
+      "name": "蘇俊宇",
+      "number": 30,
+      "team": "中山國小",
+      "position": "大前鋒",
+      "grade": "六年級"
+    },
+    {
+      "id": 17,
+      "teamId": 11,
+      "name": "邱偉庭",
+      "number": 6,
+      "team": "萬華國小",
+      "position": "中鋒",
+      "grade": "四年級"
+    },
+    {
+      "id": 18,
+      "teamId": 12,
+      "name": "馬建華",
+      "number": 24,
+      "team": "士林國小",
+      "position": "控球後衛",
+      "grade": "五年級"
+    },
+    {
+      "id": 19,
+      "teamId": 13,
+      "name": "洪智凱",
+      "number": 13,
+      "team": "北投國小",
+      "position": "得分後衛",
+      "grade": "六年級"
+    },
+    {
+      "id": 20,
+      "teamId": 14,
+      "name": "姚冠宇",
+      "number": 25,
+      "team": "內湖國小",
+      "position": "小前鋒",
+      "grade": "六年級"
+    }
+  ]
+}

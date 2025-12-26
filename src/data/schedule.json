@@ -1,0 +1,169 @@
+{
+  "matches": [
+    {
+      "id": 1,
+      "day": 1,
+      "date": "2026-01-16",
+      "time": "09:00",
+      "division": "四年級組",
+      "teamA": "敦化國小",
+      "teamB": "民生國小",
+      "scoreA": null,
+      "scoreB": null
+    },
+    {
+      "id": 2,
+      "day": 1,
+      "date": "2026-01-16",
+      "time": "10:30",
+      "division": "五年級組",
+      "teamA": "敦化國小",
+      "teamB": "健康國小",
+      "scoreA": null,
+      "scoreB": null
+    },
+    {
+      "id": 3,
+      "day": 1,
+      "date": "2026-01-16",
+      "time": "13:00",
+      "division": "六年級組",
+      "teamA": "敦化國小",
+      "teamB": "中正國小",
+      "scoreA": 52,
+      "scoreB": 45
+    },
+    {
+      "id": 4,
+      "day": 1,
+      "date": "2026-01-16",
+      "time": "14:30",
+      "division": "四年級組",
+      "teamA": "松山國小",
+      "teamB": "萬華國小",
+      "scoreA": 40,
+      "scoreB": 35
+    },
+    {
+      "id": 5,
+      "day": 1,
+      "date": "2026-01-16",
+      "time": "16:00",
+      "division": "五年級組",
+      "teamA": "信義國小",
+      "teamB": "士林國小",
+      "scoreA": 46,
+      "scoreB": 42
+    },
+    {
+      "id": 6,
+      "day": 2,
+      "date": "2026-01-17",
+      "time": "09:00",
+      "division": "六年級組",
+      "teamA": "大安國小",
+      "teamB": "北投國小",
+      "scoreA": null,
+      "scoreB": null
+    },
+    {
+      "id": 7,
+      "day": 2,
+      "date": "2026-01-17",
+      "time": "13:00",
+      "division": "四年級組",
+      "teamA": "民生國小",
+      "teamB": "松山國小",
+      "scoreA": null,
+      "scoreB": null
+    },
+    {
+      "id": 8,
+      "day": 2,
+      "date": "2026-01-17",
+      "time": "14:30",
+      "division": "五年級組",
+      "teamA": "健康國小",
+      "teamB": "文山國小",
+      "scoreA": null,
+      "scoreB": null
+    },
+    {
+      "id": 9,
+      "day": 2,
+      "date": "2026-01-17",
+      "time": "16:00",
+      "division": "六年級組",
+      "teamA": "中正國小",
+      "teamB": "木柵國小",
+      "scoreA": null,
+      "scoreB": null
+    },
+    {
+      "id": 10,
+      "day": 3,
+      "date": "2026-01-18",
+      "time": "09:00",
+      "division": "四年級組 準決賽",
+      "teamA": "待定",
+      "teamB": "待定",
+      "scoreA": null,
+      "scoreB": null
+    },
+    {
+      "id": 11,
+      "day": 3,
+      "date": "2026-01-18",
+      "time": "10:30",
+      "division": "五年級組 準決賽",
+      "teamA": "待定",
+      "teamB": "待定",
+      "scoreA": null,
+      "scoreB": null
+    },
+    {
+      "id": 12,
+      "day": 3,
+      "date": "2026-01-18",
+      "time": "13:00",
+      "division": "六年級組 準決賽",
+      "teamA": "待定",
+      "teamB": "待定",
+      "scoreA": null,
+      "scoreB": null
+    },
+    {
+      "id": 13,
+      "day": 3,
+      "date": "2026-01-18",
+      "time": "14:30",
+      "division": "四年級組 冠軍賽",
+      "teamA": "待定",
+      "teamB": "待定",
+      "scoreA": null,
+      "scoreB": null
+    },
+    {
+      "id": 14,
+      "day": 3,
+      "date": "2026-01-18",
+      "time": "16:00",
+      "division": "五年級組 冠軍賽",
+      "teamA": "待定",
+      "teamB": "待定",
+      "scoreA": null,
+      "scoreB": null
+    },
+    {
+      "id": 15,
+      "day": 3,
+      "date": "2026-01-18",
+      "time": "17:30",
+      "division": "六年級組 冠軍賽",
+      "teamA": "待定",
+      "teamB": "待定",
+      "scoreA": null,
+      "scoreB": null
+    }
+  ]
+}
