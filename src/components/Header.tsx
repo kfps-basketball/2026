@@ -17,7 +17,7 @@ function Header() {
       <div className="container mx-auto px-4">
         <div className="flex justify-between items-center py-4">
           <Link to="/" className="flex items-center space-x-2">
-            <span className="text-xl font-bold text-white">第十屆光復杯籃球邀請賽</span>
+            <span className="text-xl font-bold text-white">第十屆光復盃籃球邀請賽</span>
           </Link>
 
           {/* Desktop Navigation */}

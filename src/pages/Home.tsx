@@ -96,7 +96,7 @@ function Home() {
                 <img src={`${import.meta.env.BASE_URL}kf-spirit.png`} alt="光復精神" className="w-80 sm:w-96 lg:w-[30rem] h-auto object-contain" />
               </div>
               <h1 className="text-2xl sm:text-3xl lg:text-4xl font-bold mb-4 md:mb-6 leading-tight text-center">
-                第十屆光復杯籃球邀請賽
+                第十屆光復盃籃球邀請賽
               </h1>
               <p className="text-base sm:text-lg lg:text-xl mb-6 md:mb-8 text-center">
                 青春無畏，熱血拚搏，讓籃球夢想在這裡起飛
@@ -207,7 +207,7 @@ function Home() {
             <div className="text-sm text-gray-500 mb-2">2026-01-01</div>
             <h3 className="text-xl font-semibold mb-3 text-primary">賽事報名開始</h3>
             <p className="text-gray-700">
-              2026年度第十屆光復杯籃球邀請賽報名正式開放，歡迎各校踴躍參加！
+              2026年度第十屆光復盃籃球邀請賽報名正式開放，歡迎各校踴躍參加！
             </p>
           </div>
           <div className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow">

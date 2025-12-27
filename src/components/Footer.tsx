@@ -6,7 +6,7 @@ function Footer() {
           <div>
             <h3 className="text-lg font-bold mb-4">關於我們</h3>
             <p className="text-gray-300">
-              第十屆光復杯籃球邀請賽致力於推廣少年籃球運動，點燃籃球熱情，傳承運動文化。
+              第十屆光復盃籃球邀請賽致力於推廣少年籃球運動，點燃籃球熱情，傳承運動文化。
             </p>
           </div>
           <div>
@@ -26,7 +26,7 @@ function Footer() {
           </div>
         </div>
         <div className="border-t border-gray-700 mt-8 pt-6 text-center text-gray-400">
-          <p>&copy; 2026 第十屆光復杯籃球邀請賽 All Rights Reserved.</p>
+          <p>&copy; 2026 第十屆光復盃籃球邀請賽 All Rights Reserved.</p>
           <p className="mt-2">Made with Peace ✌️ and Love ❤️</p>
         </div>
       </div>

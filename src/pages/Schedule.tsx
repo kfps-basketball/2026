@@ -5,9 +5,9 @@ function Schedule() {
   const [selectedDay, setSelectedDay] = useState(1)
 
   const days = [
-    { day: 1, date: '1月16日（四）' },
-    { day: 2, date: '1月17日（五）' },
-    { day: 3, date: '1月18日（六）' },
+    { day: 1, date: '1月16日（五）' },
+    { day: 2, date: '1月17日（六）' },
+    { day: 3, date: '1月18日（日）' },
   ]
 
   const dayMatches = scheduleData.matches.filter((match) => match.day === selectedDay)
