@@ -288,14 +288,14 @@ function Home() {
             />
           </a>
           <a
-            href="https://www.hsuslegend.com/"
+            href="https://www.facebook.com/tec999/"
             target="_blank"
             rel="noopener noreferrer"
             className="w-64 h-48 flex items-center justify-center bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow cursor-pointer"
           >
             <img
-              src={`${import.meta.env.BASE_URL}sponsor-logo-hsus-legend.png`}
-              alt="贊助廠商 潭酵天地"
+              src={`${import.meta.env.BASE_URL}sponsor-logo-tec.png`}
+              alt="贊助廠商 TEC-Technical Equipment Center"
               className="max-w-full max-h-full object-contain"
             />
           </a>
