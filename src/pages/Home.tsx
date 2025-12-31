@@ -276,6 +276,17 @@ function Home() {
         <h2 className="text-3xl font-bold mb-8 text-center">特別感謝</h2>
         <div className="flex flex-wrap justify-center items-center gap-8 md:gap-12">
           <a
+            href="#"
+            onClick={(e) => e.preventDefault()}
+            className="w-64 h-48 flex items-center justify-center bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow cursor-default"
+          >
+            <img
+              src={`${import.meta.env.BASE_URL}sponsor-logo-annray-capital.png`}
+              alt="贊助廠商 安睿資本"
+              className="max-w-full max-h-full object-contain"
+            />
+          </a>
+          <a
             href="https://www.hsuslegend.com/"
             target="_blank"
             rel="noopener noreferrer"
@@ -296,18 +307,6 @@ function Home() {
             <img
               src={`${import.meta.env.BASE_URL}sponsor-logo-tec.png`}
               alt="贊助廠商 TEC-Technical Equipment Center"
-              className="max-w-full max-h-full object-contain"
-            />
-          </a>
-          <a
-            href="https://www.hsuslegend.com/"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="w-64 h-48 flex items-center justify-center bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow cursor-pointer"
-          >
-            <img
-              src={`${import.meta.env.BASE_URL}sponsor-logo-hsus-legend.png`}
-              alt="贊助廠商 潭酵天地"
               className="max-w-full max-h-full object-contain"
             />
           </a>
