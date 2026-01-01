@@ -163,7 +163,7 @@ function Home() {
                 {/* Previous Button */}
                 <button
                   onClick={prevSlide}
-                  className="absolute left-0 sm:-left-4 lg:-left-16 top-1/2 -translate-y-1/2 z-40 bg-primary/80 hover:bg-primary text-white w-10 h-10 sm:w-12 sm:h-12 rounded-full transition-colors shadow-lg flex items-center justify-center text-2xl sm:text-3xl"
+                  className="absolute left-0 sm:-left-4 lg:-left-16 top-1/2 -translate-y-1/2 z-40 bg-[#802135]/80 hover:bg-[#802135] text-white w-10 h-10 sm:w-12 sm:h-12 rounded-full transition-colors shadow-lg flex items-center justify-center text-2xl sm:text-3xl"
                   aria-label="Previous"
                 >
                   ‹
@@ -172,7 +172,7 @@ function Home() {
                 {/* Next Button */}
                 <button
                   onClick={nextSlide}
-                  className="absolute right-0 sm:-right-4 lg:-right-16 top-1/2 -translate-y-1/2 z-40 bg-primary/80 hover:bg-primary text-white w-10 h-10 sm:w-12 sm:h-12 rounded-full transition-colors shadow-lg flex items-center justify-center text-2xl sm:text-3xl"
+                  className="absolute right-0 sm:-right-4 lg:-right-16 top-1/2 -translate-y-1/2 z-40 bg-[#802135]/80 hover:bg-[#802135] text-white w-10 h-10 sm:w-12 sm:h-12 rounded-full transition-colors shadow-lg flex items-center justify-center text-2xl sm:text-3xl"
                   aria-label="Next"
                 >
                   ›
