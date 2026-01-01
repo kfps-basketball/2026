@@ -47,11 +47,56 @@ function Home() {
     },
     {
       id: 9,
+      url: `${import.meta.env.BASE_URL}14.jpg`,
+      caption: '球員照片 14 黃于廷',
+    },
+    {
+      id: 10,
+      url: `${import.meta.env.BASE_URL}15.jpg`,
+      caption: '球員照片 15 宋奕龍',
+    }, 
+    {
+      id: 11,
+      url: `${import.meta.env.BASE_URL}17.jpg`,
+      caption: '球員照片 17 黃冠睿',
+    },
+    {
+      id: 12,
+      url: `${import.meta.env.BASE_URL}18.jpg`,
+      caption: '球員照片 18 鄭仲甫',
+    }, 
+    {
+      id: 13,
+      url: `${import.meta.env.BASE_URL}21.jpg`,
+      caption: '球員照片 21 簡邵謙',
+    },
+    {
+      id: 14,
+      url: `${import.meta.env.BASE_URL}27.jpg`,
+      caption: '球員照片 27 張順翔',
+    },
+    {
+      id: 15,
+      url: `${import.meta.env.BASE_URL}31.jpg`,
+      caption: '球員照片 31 陳方鍇',
+    },
+    {
+      id: 16,
+      url: `${import.meta.env.BASE_URL}36.jpg`,
+      caption: '球員照片 36 莊元嘉',
+    }, 
+    {
+      id: 17,
+      url: `${import.meta.env.BASE_URL}39.jpg`,
+      caption: '球員照片 39 王威皓',
+    },                    
+    {
+      id: 18,
       url: `${import.meta.env.BASE_URL}55.jpg`,
       caption: '球員照片 55 梁晨睿',
     },
     {
-      id: 10,
+      id: 19,
       url: `${import.meta.env.BASE_URL}77.jpg`,
       caption: '球員照片 77 鐘季鋼',
     },
