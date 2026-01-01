@@ -49,12 +49,12 @@ function Teams() {
             to={`/players/${team.id}?from=${selectedDivision}`}
             className="bg-white rounded-lg shadow-md hover:shadow-xl transition-shadow p-6 text-center group cursor-pointer"
           >
-            <div className="w-24 h-24 mx-auto mb-4 bg-gray-100 rounded-full flex items-center justify-center group-hover:bg-blue-50 transition-colors">
+            <div className="w-24 h-24 mx-auto mb-4 bg-gray-100 rounded-full flex items-center justify-center group-hover:bg-red-50 transition-colors">
               <span className="text-4xl">{team.logo}</span>
             </div>
             <h3 className="text-lg font-bold mb-2 group-hover:text-primary transition-colors">{team.name}</h3>
             <div className="text-sm text-gray-500 mb-2">{team.school}</div>
-            <div className="inline-block px-3 py-1 bg-blue-100 text-primary text-sm rounded-full">
+            <div className="inline-block px-3 py-1 bg-red-100 text-primary text-sm rounded-full">
               {divisions.find((d) => d.id === team.division)?.label}
             </div>
           </Link>

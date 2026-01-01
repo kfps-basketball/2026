@@ -52,7 +52,7 @@ function Schedule() {
                   <div className="text-primary font-semibold text-lg">
                     {match.time}
                   </div>
-                  <div className="px-3 py-1 bg-blue-100 text-primary text-sm rounded-full">
+                  <div className="px-3 py-1 bg-red-100 text-primary text-sm rounded-full">
                     {match.division}
                   </div>
                 </div>
