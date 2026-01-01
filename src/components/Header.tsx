@@ -13,7 +13,7 @@ function Header() {
   ]
 
   return (
-    <header className="bg-gradient-to-r from-[#802135] via-[#802135] via-90% to-[#ffb81c] shadow-lg sticky top-0 z-50">
+    <header className="bg-primary shadow-lg sticky top-0 z-50">
       <div className="container mx-auto px-4">
         <div className="flex justify-between items-center py-4">
           <Link to="/" className="flex items-center space-x-2">
