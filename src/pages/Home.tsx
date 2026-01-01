@@ -7,53 +7,53 @@ function Home() {
   const teamPhotos = [
     {
       id: 1,
-      url: `${import.meta.env.BASE_URL}1.JPG`,
-      caption: '球員照片',
+      url: `${import.meta.env.BASE_URL}1.jpg`,
+      caption: '球員照片 1 吳劉品希',
     },
     {
       id: 2,
-      url: `${import.meta.env.BASE_URL}2.JPG`,
-      caption: '球員照片',
+      url: `${import.meta.env.BASE_URL}2.jpg`,
+      caption: '球員照片 2 莊元赫',
     },
     {
       id: 3,
-      url: `${import.meta.env.BASE_URL}3.JPG`,
-      caption: '球員照片',
+      url: `${import.meta.env.BASE_URL}3.jpg`,
+      caption: '球員照片 3 楊凱宸',
     },
     {
       id: 4,
-      url: `${import.meta.env.BASE_URL}5.JPG`,
-      caption: '球員照片',
+      url: `${import.meta.env.BASE_URL}5.jpg`,
+      caption: '球員照片 5 李亞宸',
     },
     {
       id: 5,
-      url: `${import.meta.env.BASE_URL}9.JPG`,
-      caption: '球員照片',
+      url: `${import.meta.env.BASE_URL}9.jpg`,
+      caption: '球員照片 9 陳承瑀',
     },
     {
       id: 6,
-      url: `${import.meta.env.BASE_URL}10.JPG`,
-      caption: '球員照片',
+      url: `${import.meta.env.BASE_URL}10.jpg`,
+      caption: '球員照片 10 王承翰',
     },
     {
       id: 7,
-      url: `${import.meta.env.BASE_URL}12.JPG`,
-      caption: '球員照片',
+      url: `${import.meta.env.BASE_URL}12.jpg`,
+      caption: '球員照片 12 陳冠衡',
     },
     {
       id: 8,
-      url: `${import.meta.env.BASE_URL}13.JPG`,
-      caption: '球員照片',
+      url: `${import.meta.env.BASE_URL}13.jpg`,
+      caption: '球員照片 13 張宸誌',
     },
     {
       id: 9,
-      url: `${import.meta.env.BASE_URL}55.JPG`,
+      url: `${import.meta.env.BASE_URL}55.jpg`,
       caption: '球員照片 55 梁晨睿',
-    },    
+    },
     {
       id: 10,
-      url: `${import.meta.env.BASE_URL}77.JPG`,
-      caption: '球員照片',
+      url: `${import.meta.env.BASE_URL}77.jpg`,
+      caption: '球員照片 77 鐘季鋼',
     },
   ]
 
