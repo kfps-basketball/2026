@@ -20,12 +20,18 @@ function Teams() {
 
   const filteredTeams = teamsData.teams.filter((team) => team.division === selectedDivision)
 
+  const gradeImages: Record<string, string[]> = {
+    grade6: ['6th_grade_1.jpg', '6th_grade_2.jpg'],
+    grade5: ['5th_grade.jpg'],
+    grade4: ['4th_grade.jpg'],
+  }
+
   return (
     <div className="container mx-auto px-4 py-12">
       <h1 className="text-4xl font-bold mb-8 text-center text-primary">參賽隊伍</h1>
 
       {/* Division Filter */}
-      <div className="flex flex-wrap justify-center gap-3 mb-12">
+      <div className="flex flex-wrap justify-center gap-3 mb-8">
         {divisions.map((division) => (
           <button
             key={division.id}
@@ -40,6 +46,27 @@ function Teams() {
           </button>
         ))}
       </div>
+
+      {/* Grade Images */}
+      {gradeImages[selectedDivision] && gradeImages[selectedDivision].length > 0 && (
+        <div className="flex flex-wrap lg:flex-nowrap justify-center gap-6 mb-12">
+          {gradeImages[selectedDivision].map((image, index) => (
+            <a
+              key={index}
+              href={`${import.meta.env.BASE_URL}${image}`}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="cursor-pointer"
+            >
+              <img
+                src={`${import.meta.env.BASE_URL}${image}`}
+                alt={`${divisions.find((d) => d.id === selectedDivision)?.label}合照 ${index + 1}`}
+                className="w-auto h-auto max-h-[400px] rounded-lg shadow-lg hover:shadow-xl transition-shadow"
+              />
+            </a>
+          ))}
+        </div>
+      )}
 
       {/* Teams Grid */}
       <div className="grid md:grid-cols-3 lg:grid-cols-4 gap-6">
