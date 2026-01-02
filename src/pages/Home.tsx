@@ -250,16 +250,16 @@ function Home() {
         <div className="grid md:grid-cols-3 gap-6">
           <div className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow">
             <div className="text-sm text-gray-500 mb-2">2026-01-01</div>
-            <h3 className="text-xl font-semibold mb-3 text-primary">賽事報名開始</h3>
+            <h3 className="text-xl font-semibold mb-3 text-primary">賽事準備開始</h3>
             <p className="text-gray-700">
-              2026年度第十屆光復盃籃球邀請賽報名正式開放，歡迎各校踴躍參加！
+              新年快樂! 2026年度第十屆光復盃籃球邀請賽即將開打! 新的一年一起燃燒光復魂~
             </p>
           </div>
           <div className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow">
             <div className="text-sm text-gray-500 mb-2">2025-12-29</div>
-            <h3 className="text-xl font-semibold mb-3 text-primary">賽事規則公告</h3>
+            <h3 className="text-xl font-semibold mb-3 text-primary">賽事日期公告</h3>
             <p className="text-gray-700">
-              本屆賽事規則已更新，請各參賽隊伍詳閱賽事資訊。
+              本屆賽事日期為 1/16 - 1/18。
             </p>
           </div>
           <div className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow">

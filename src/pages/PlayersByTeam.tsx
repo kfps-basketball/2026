@@ -2,13 +2,22 @@ import { useParams, Link, useSearchParams } from 'react-router-dom'
 import playersData from '../data/players.json'
 import teamsData from '../data/teams.json'
 
+interface Player {
+  id: number
+  teamId: number
+  name: string
+  number: number
+  position: string
+  grade: string
+}
+
 function PlayersByTeam() {
   const { teamId } = useParams<{ teamId: string }>()
   const [searchParams] = useSearchParams()
   const fromDivision = searchParams.get('from') || 'grade6'
 
   const team = teamsData.teams.find((t) => t.id === Number(teamId))
-  const teamPlayers = playersData.players.filter((p) => p.teamId === Number(teamId))
+  const teamPlayers = (playersData.players as Player[]).filter((p) => p.teamId === Number(teamId))
 
   if (!team) {
     return (
