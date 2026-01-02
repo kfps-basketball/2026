@@ -2,108 +2,24 @@
   "teams": [
     {
       "id": 1,
-      "name": "敦化國小",
-      "school": "敦化國小",
+      "name": "光復國小",
+      "school": "光復國小",
       "division": "grade4",
-      "logo": "🏀"
+      "logo": "favicon.png"
     },
     {
       "id": 2,
-      "name": "敦化國小",
-      "school": "敦化國小",
+      "name": "光復國小",
+      "school": "光復國小",
       "division": "grade5",
-      "logo": "🏀"
+      "logo": "favicon.png"
     },
     {
       "id": 3,
-      "name": "敦化國小",
-      "school": "敦化國小",
+      "name": "光復國小",
+      "school": "光復國小",
       "division": "grade6",
-      "logo": "🏀"
-    },
-    {
-      "id": 4,
-      "name": "民生國小",
-      "school": "民生國小",
-      "division": "grade4",
-      "logo": "⛹️"
-    },
-    {
-      "id": 5,
-      "name": "健康國小",
-      "school": "健康國小",
-      "division": "grade5",
-      "logo": "🏆"
-    },
-    {
-      "id": 6,
-      "name": "中正國小",
-      "school": "中正國小",
-      "division": "grade6",
-      "logo": "🎯"
-    },
-    {
-      "id": 7,
-      "name": "松山國小",
-      "school": "松山國小",
-      "division": "grade4",
-      "logo": "🌟"
-    },
-    {
-      "id": 8,
-      "name": "信義國小",
-      "school": "信義國小",
-      "division": "grade5",
-      "logo": "⭐"
-    },
-    {
-      "id": 9,
-      "name": "大安國小",
-      "school": "大安國小",
-      "division": "grade6",
-      "logo": "🔥"
-    },
-    {
-      "id": 10,
-      "name": "萬華國小",
-      "school": "萬華國小",
-      "division": "grade4",
-      "logo": "🚀"
-    },
-    {
-      "id": 11,
-      "name": "士林國小",
-      "school": "士林國小",
-      "division": "grade5",
-      "logo": "⚡"
-    },
-    {
-      "id": 12,
-      "name": "北投國小",
-      "school": "北投國小",
-      "division": "grade6",
-      "logo": "🎪"
-    },
-    {
-      "id": 13,
-      "name": "南港國小",
-      "school": "南港國小",
-      "division": "grade4",
-      "logo": "🎭"
-    },
-    {
-      "id": 14,
-      "name": "文山國小",
-      "school": "文山國小",
-      "division": "grade5",
-      "logo": "🎬"
-    },
-    {
-      "id": 15,
-      "name": "木柵國小",
-      "school": "木柵國小",
-      "division": "grade6",
-      "logo": "🎪"
+      "logo": "favicon.png"
     }
   ]
 }

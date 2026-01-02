@@ -45,8 +45,12 @@ function PlayersByTeam() {
       {/* Team Header */}
       <div className="bg-white rounded-lg shadow-md p-8 mb-8">
         <div className="flex items-center space-x-6">
-          <div className="w-20 h-20 bg-gray-100 rounded-full flex items-center justify-center">
-            <span className="text-5xl">{team.logo}</span>
+          <div className="w-20 h-20 bg-gray-100 rounded-full flex items-center justify-center overflow-hidden">
+            <img
+              src={`${import.meta.env.BASE_URL}${team.logo}`}
+              alt={`${team.name} logo`}
+              className="w-full h-full object-contain p-2"
+            />
           </div>
           <div>
             <h1 className="text-3xl font-bold text-primary mb-2">{team.name}</h1>
