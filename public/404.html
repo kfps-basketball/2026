@@ -5,16 +5,17 @@
   <title>第十屆光復盃籃球邀請賽</title>
   <script>
     // GitHub Pages SPA redirect solution
-    // This script takes the current URL and converts the path into a query string parameter
-    // which is then handled by index.html to restore the correct route
-    var pathSegmentsToKeep = 1; // Keep '/2026/' as part of the base path
+    // Store the current path and redirect to index.html with the path as a query parameter
+    var pathSegmentsToKeep = 1; // Keep '/2026' as the base path
 
     var l = window.location;
+    var path = l.pathname.split('/').slice(pathSegmentsToKeep + 1).join('/');
+
     l.replace(
       l.protocol + '//' + l.hostname + (l.port ? ':' + l.port : '') +
-      l.pathname.split('/').slice(0, 1 + pathSegmentsToKeep).join('/') + '/?/' +
-      l.pathname.slice(1).split('/').slice(pathSegmentsToKeep).join('/').replace(/&/g, '~and~') +
-      (l.search ? '&' + l.search.slice(1).replace(/&/g, '~and~') : '') +
+      l.pathname.split('/').slice(0, 1 + pathSegmentsToKeep).join('/') + '/' +
+      (path ? '?/' + path.replace(/&/g, '~and~') : '') +
+      (l.search ? (path ? '&' : '?') + l.search.slice(1).replace(/&/g, '~and~') : '') +
       l.hash
     );
   </script>
