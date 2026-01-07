@@ -39,7 +39,7 @@ function Schedule() {
       <div className="space-y-4">
         {dayMatches.map((match) => {
           // Special rendering for events (opening ceremony)
-          if (match.isEvent) {
+          if ('isEvent' in match && match.isEvent) {
             return (
               <div
                 key={match.id}
@@ -63,8 +63,8 @@ function Schedule() {
           }
 
           const hasScore = match.scoreA !== null && match.scoreB !== null
-          const teamAWon = hasScore && match.scoreA > match.scoreB
-          const teamBWon = hasScore && match.scoreB > match.scoreA
+          const teamAWon = hasScore && (match.scoreA ?? 0) > (match.scoreB ?? 0)
+          const teamBWon = hasScore && (match.scoreB ?? 0) > (match.scoreA ?? 0)
 
           return (
             <div
