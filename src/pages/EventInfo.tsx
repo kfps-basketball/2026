@@ -87,19 +87,9 @@ function EventInfo() {
             </div>
           </a>
           <a
-            href="#"
-            className="flex items-center p-4 border-2 border-gray-200 rounded-lg hover:border-primary hover:bg-red-50 transition-colors"
-          >
-            <svg className="w-10 h-10 text-primary mr-4 flex-shrink-0" fill="none" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" viewBox="0 0 24 24" stroke="currentColor">
-              <path d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-3 7h3m-3 4h3m-6-4h.01M9 16h.01" />
-            </svg>
-            <div>
-              <div className="font-semibold text-primary">比賽規則</div>
-              <div className="text-sm text-gray-500">PDF 格式</div>
-            </div>
-          </a>
-          <a
-            href="#"
+            href={`${import.meta.env.BASE_URL}2026-schedule.pdf`}
+            target="_blank"
+            rel="noopener noreferrer"
             className="flex items-center p-4 border-2 border-gray-200 rounded-lg hover:border-primary hover:bg-red-50 transition-colors"
           >
             <svg className="w-10 h-10 text-primary mr-4 flex-shrink-0" fill="none" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" viewBox="0 0 24 24" stroke="currentColor">
@@ -107,18 +97,6 @@ function EventInfo() {
             </svg>
             <div>
               <div className="font-semibold text-primary">對戰表</div>
-              <div className="text-sm text-gray-500">PDF 格式</div>
-            </div>
-          </a>
-          <a
-            href="#"
-            className="flex items-center p-4 border-2 border-gray-200 rounded-lg hover:border-primary hover:bg-red-50 transition-colors"
-          >
-            <svg className="w-10 h-10 text-primary mr-4 flex-shrink-0" fill="none" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" viewBox="0 0 24 24" stroke="currentColor">
-              <path d="M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z" />
-            </svg>
-            <div>
-              <div className="font-semibold text-primary">報名表</div>
               <div className="text-sm text-gray-500">PDF 格式</div>
             </div>
           </a>
