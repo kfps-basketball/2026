@@ -44,10 +44,10 @@ function EventInfo() {
             <h2 className="text-2xl font-bold mb-4">賽制說明</h2>
             <div className="prose max-w-none text-gray-700">
               <ul className="space-y-2">
-                <li>採用國際籃球規則</li>
+                <li>採用中華民國籃協國際少年籃球規則</li>
                 <li>分組循環賽後進行淘汰賽</li>
-                <li>每場比賽4節，每節8分鐘</li>
-                <li>節間休息2分鐘，半場休息5分鐘</li>
+                <li>每場比賽4節，每節8分鐘，半場休息1分鐘</li>
+                <li>第4節最後一分鐘停表</li>
               </ul>
             </div>
           </section>
@@ -75,7 +75,9 @@ function EventInfo() {
         <h2 className="text-2xl font-bold mb-4">相關文件下載</h2>
         <div className="grid md:grid-cols-2 gap-4">
           <a
-            href="#"
+            href={`${import.meta.env.BASE_URL}2026-rule.pdf`}
+            target="_blank"
+            rel="noopener noreferrer"
             className="flex items-center p-4 border-2 border-gray-200 rounded-lg hover:border-primary hover:bg-red-50 transition-colors"
           >
             <svg className="w-10 h-10 text-primary mr-4 flex-shrink-0" fill="none" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" viewBox="0 0 24 24" stroke="currentColor">

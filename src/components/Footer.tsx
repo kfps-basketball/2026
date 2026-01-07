@@ -12,7 +12,7 @@ function Footer() {
           <div>
             <h3 className="text-lg font-bold mb-4">快速連結</h3>
             <ul className="space-y-2 text-gray-300">
-              <li><a href="#" className="hover:text-white">賽事規則</a></li>
+              <li><a href={`${import.meta.env.BASE_URL}2026-rule.pdf`} target="_blank" rel="noopener noreferrer" className="hover:text-white">賽事規則</a></li>
               <li><a href={`${import.meta.env.BASE_URL}2026-schedule.pdf`} target="_blank" rel="noopener noreferrer" className="hover:text-white">賽程表</a></li>
             </ul>
           </div>
