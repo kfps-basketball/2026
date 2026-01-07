@@ -100,29 +100,31 @@ function Teams() {
         {selectedDivision === 'grade4' && (
           <div className="flex justify-center">
             <svg viewBox="0 0 400 400" className="max-w-md w-full">
-              {/* Diamond shape */}
-              <line x1="200" y1="50" x2="350" y2="200" stroke="#DC2626" strokeWidth="2" />
-              <line x1="350" y1="200" x2="200" y2="350" stroke="#DC2626" strokeWidth="2" />
-              <line x1="200" y1="350" x2="50" y2="200" stroke="#DC2626" strokeWidth="2" />
-              <line x1="50" y1="200" x2="200" y2="50" stroke="#DC2626" strokeWidth="2" />
+              <g transform="rotate(45 200 200)">
+                {/* Square shape (rotated to look like square) */}
+                <line x1="200" y1="50" x2="350" y2="200" stroke="#DC2626" strokeWidth="2" />
+                <line x1="350" y1="200" x2="200" y2="350" stroke="#DC2626" strokeWidth="2" />
+                <line x1="200" y1="350" x2="50" y2="200" stroke="#DC2626" strokeWidth="2" />
+                <line x1="50" y1="200" x2="200" y2="50" stroke="#DC2626" strokeWidth="2" />
 
-              {/* Diagonal lines */}
-              <line x1="50" y1="200" x2="350" y2="200" stroke="#DC2626" strokeWidth="2" />
-              <line x1="200" y1="50" x2="200" y2="350" stroke="#DC2626" strokeWidth="2" />
+                {/* Diagonal lines */}
+                <line x1="50" y1="200" x2="350" y2="200" stroke="#DC2626" strokeWidth="2" />
+                <line x1="200" y1="50" x2="200" y2="350" stroke="#DC2626" strokeWidth="2" />
 
-              {/* Team names */}
+                {/* Match numbers */}
+                <text x="125" y="115" className="fill-gray-500 text-xs">(1)</text>
+                <text x="275" y="115" className="fill-gray-500 text-xs">(2)</text>
+                <text x="200" y="190" className="fill-gray-500 text-xs">(11)</text>
+                <text x="125" y="275" className="fill-gray-500 text-xs">(31)</text>
+                <text x="275" y="275" className="fill-gray-500 text-xs">(30)</text>
+                <text x="275" y="35" className="fill-gray-500 text-xs">(21)</text>
+              </g>
+
+              {/* Team names (outside rotation) */}
               <text x="200" y="35" textAnchor="middle" className="fill-gray-800 font-bold text-sm">光復國小</text>
               <text x="370" y="205" textAnchor="start" className="fill-gray-800 font-bold text-sm">士林國小</text>
               <text x="200" y="375" textAnchor="middle" className="fill-gray-800 font-bold text-sm">麗山國小</text>
               <text x="30" y="205" textAnchor="end" className="fill-gray-800 font-bold text-sm">石牌國小</text>
-
-              {/* Match numbers */}
-              <text x="125" y="115" className="fill-gray-500 text-xs">(1)</text>
-              <text x="275" y="115" className="fill-gray-500 text-xs">(2)</text>
-              <text x="200" y="190" className="fill-gray-500 text-xs">(11)</text>
-              <text x="125" y="275" className="fill-gray-500 text-xs">(31)</text>
-              <text x="275" y="275" className="fill-gray-500 text-xs">(30)</text>
-              <text x="275" y="35" className="fill-gray-500 text-xs">(21)</text>
             </svg>
           </div>
         )}
@@ -153,34 +155,36 @@ function Teams() {
                 </svg>
               </div>
 
-              {/* Group B - Diamond */}
+              {/* Group B - Square */}
               <div className="flex flex-col items-center">
                 <h3 className="text-lg font-semibold mb-4 text-gray-700">B組</h3>
                 <svg viewBox="0 0 300 300" className="max-w-xs w-full">
-                  {/* Diamond */}
-                  <line x1="150" y1="50" x2="250" y2="150" stroke="#DC2626" strokeWidth="2" />
-                  <line x1="250" y1="150" x2="150" y2="250" stroke="#DC2626" strokeWidth="2" />
-                  <line x1="150" y1="250" x2="50" y2="150" stroke="#DC2626" strokeWidth="2" />
-                  <line x1="50" y1="150" x2="150" y2="50" stroke="#DC2626" strokeWidth="2" />
+                  <g transform="rotate(45 150 150)">
+                    {/* Square (rotated) */}
+                    <line x1="150" y1="50" x2="250" y2="150" stroke="#DC2626" strokeWidth="2" />
+                    <line x1="250" y1="150" x2="150" y2="250" stroke="#DC2626" strokeWidth="2" />
+                    <line x1="150" y1="250" x2="50" y2="150" stroke="#DC2626" strokeWidth="2" />
+                    <line x1="50" y1="150" x2="150" y2="50" stroke="#DC2626" strokeWidth="2" />
 
-                  {/* Diagonal lines */}
-                  <line x1="50" y1="150" x2="250" y2="150" stroke="#DC2626" strokeWidth="2" />
-                  <line x1="150" y1="50" x2="150" y2="250" stroke="#DC2626" strokeWidth="2" />
+                    {/* Diagonal lines */}
+                    <line x1="50" y1="150" x2="250" y2="150" stroke="#DC2626" strokeWidth="2" />
+                    <line x1="150" y1="50" x2="150" y2="250" stroke="#DC2626" strokeWidth="2" />
 
-                  {/* Team names */}
+                    {/* Match numbers */}
+                    <text x="120" y="90" className="fill-gray-500 text-xs">(4)</text>
+                    <text x="180" y="90" className="fill-gray-500 text-xs">(7)</text>
+                    <text x="150" y="140" className="fill-gray-500 text-xs">(17)</text>
+                    <text x="120" y="210" className="fill-gray-500 text-xs">(24)</text>
+                    <text x="180" y="210" className="fill-gray-500 text-xs">(25)</text>
+                    <text x="200" y="90" className="fill-gray-500 text-xs">(13)</text>
+                    <text x="150" y="160" className="fill-gray-500 text-xs">B</text>
+                  </g>
+
+                  {/* Team names (outside rotation) */}
                   <text x="150" y="35" textAnchor="middle" className="fill-gray-800 font-bold text-sm">麗山國小</text>
                   <text x="260" y="155" textAnchor="start" className="fill-gray-800 font-bold text-sm">三玉國小</text>
                   <text x="150" y="275" textAnchor="middle" className="fill-gray-800 font-bold text-sm">敦化國小</text>
                   <text x="40" y="155" textAnchor="end" className="fill-gray-800 font-bold text-sm">士林國小</text>
-
-                  {/* Match numbers */}
-                  <text x="120" y="90" className="fill-gray-500 text-xs">(4)</text>
-                  <text x="180" y="90" className="fill-gray-500 text-xs">(7)</text>
-                  <text x="150" y="140" className="fill-gray-500 text-xs">(17)</text>
-                  <text x="120" y="210" className="fill-gray-500 text-xs">(24)</text>
-                  <text x="180" y="210" className="fill-gray-500 text-xs">(25)</text>
-                  <text x="200" y="90" className="fill-gray-500 text-xs">(13)</text>
-                  <text x="150" y="160" className="fill-gray-500 text-xs">B</text>
                 </svg>
               </div>
             </div>
@@ -222,65 +226,69 @@ function Teams() {
         {selectedDivision === 'grade6' && (
           <div className="space-y-12">
             <div className="grid md:grid-cols-2 gap-8">
-              {/* Group A - Diamond */}
+              {/* Group A - Square */}
               <div className="flex flex-col items-center">
                 <h3 className="text-lg font-semibold mb-4 text-gray-700">A組</h3>
                 <svg viewBox="0 0 300 300" className="max-w-xs w-full">
-                  {/* Diamond */}
-                  <line x1="150" y1="50" x2="250" y2="150" stroke="#DC2626" strokeWidth="2" />
-                  <line x1="250" y1="150" x2="150" y2="250" stroke="#DC2626" strokeWidth="2" />
-                  <line x1="150" y1="250" x2="50" y2="150" stroke="#DC2626" strokeWidth="2" />
-                  <line x1="50" y1="150" x2="150" y2="50" stroke="#DC2626" strokeWidth="2" />
+                  <g transform="rotate(45 150 150)">
+                    {/* Square (rotated) */}
+                    <line x1="150" y1="50" x2="250" y2="150" stroke="#DC2626" strokeWidth="2" />
+                    <line x1="250" y1="150" x2="150" y2="250" stroke="#DC2626" strokeWidth="2" />
+                    <line x1="150" y1="250" x2="50" y2="150" stroke="#DC2626" strokeWidth="2" />
+                    <line x1="50" y1="150" x2="150" y2="50" stroke="#DC2626" strokeWidth="2" />
 
-                  {/* Diagonal lines */}
-                  <line x1="50" y1="150" x2="250" y2="150" stroke="#DC2626" strokeWidth="2" />
-                  <line x1="150" y1="50" x2="150" y2="250" stroke="#DC2626" strokeWidth="2" />
+                    {/* Diagonal lines */}
+                    <line x1="50" y1="150" x2="250" y2="150" stroke="#DC2626" strokeWidth="2" />
+                    <line x1="150" y1="50" x2="150" y2="250" stroke="#DC2626" strokeWidth="2" />
 
-                  {/* Team names */}
+                    {/* Match numbers */}
+                    <text x="120" y="90" className="fill-gray-500 text-xs">(3)</text>
+                    <text x="180" y="90" className="fill-gray-500 text-xs">(8)</text>
+                    <text x="150" y="140" className="fill-gray-500 text-xs">(16)</text>
+                    <text x="120" y="210" className="fill-gray-500 text-xs">(19)</text>
+                    <text x="180" y="210" className="fill-gray-500 text-xs">(22)</text>
+                    <text x="200" y="90" className="fill-gray-500 text-xs">(14)</text>
+                    <text x="150" y="160" className="fill-gray-500 text-xs">A</text>
+                  </g>
+
+                  {/* Team names (outside rotation) */}
                   <text x="150" y="35" textAnchor="middle" className="fill-gray-800 font-bold text-sm">光復國小</text>
                   <text x="260" y="155" textAnchor="start" className="fill-gray-800 font-bold text-sm">國語實小</text>
                   <text x="150" y="275" textAnchor="middle" className="fill-gray-800 font-bold text-sm">麗山國小</text>
                   <text x="40" y="155" textAnchor="end" className="fill-gray-800 font-bold text-sm">三興國小</text>
-
-                  {/* Match numbers */}
-                  <text x="120" y="90" className="fill-gray-500 text-xs">(3)</text>
-                  <text x="180" y="90" className="fill-gray-500 text-xs">(8)</text>
-                  <text x="150" y="140" className="fill-gray-500 text-xs">(16)</text>
-                  <text x="120" y="210" className="fill-gray-500 text-xs">(19)</text>
-                  <text x="180" y="210" className="fill-gray-500 text-xs">(22)</text>
-                  <text x="200" y="90" className="fill-gray-500 text-xs">(14)</text>
-                  <text x="150" y="160" className="fill-gray-500 text-xs">A</text>
                 </svg>
               </div>
 
-              {/* Group B - Diamond */}
+              {/* Group B - Square */}
               <div className="flex flex-col items-center">
                 <h3 className="text-lg font-semibold mb-4 text-gray-700">B組</h3>
                 <svg viewBox="0 0 300 300" className="max-w-xs w-full">
-                  {/* Diamond */}
-                  <line x1="150" y1="50" x2="250" y2="150" stroke="#DC2626" strokeWidth="2" />
-                  <line x1="250" y1="150" x2="150" y2="250" stroke="#DC2626" strokeWidth="2" />
-                  <line x1="150" y1="250" x2="50" y2="150" stroke="#DC2626" strokeWidth="2" />
-                  <line x1="50" y1="150" x2="150" y2="50" stroke="#DC2626" strokeWidth="2" />
+                  <g transform="rotate(45 150 150)">
+                    {/* Square (rotated) */}
+                    <line x1="150" y1="50" x2="250" y2="150" stroke="#DC2626" strokeWidth="2" />
+                    <line x1="250" y1="150" x2="150" y2="250" stroke="#DC2626" strokeWidth="2" />
+                    <line x1="150" y1="250" x2="50" y2="150" stroke="#DC2626" strokeWidth="2" />
+                    <line x1="50" y1="150" x2="150" y2="50" stroke="#DC2626" strokeWidth="2" />
 
-                  {/* Diagonal lines */}
-                  <line x1="50" y1="150" x2="250" y2="150" stroke="#DC2626" strokeWidth="2" />
-                  <line x1="150" y1="50" x2="150" y2="250" stroke="#DC2626" strokeWidth="2" />
+                    {/* Diagonal lines */}
+                    <line x1="50" y1="150" x2="250" y2="150" stroke="#DC2626" strokeWidth="2" />
+                    <line x1="150" y1="50" x2="150" y2="250" stroke="#DC2626" strokeWidth="2" />
 
-                  {/* Team names */}
+                    {/* Match numbers */}
+                    <text x="120" y="90" className="fill-gray-500 text-xs">(6)</text>
+                    <text x="180" y="90" className="fill-gray-500 text-xs">(20)</text>
+                    <text x="150" y="140" className="fill-gray-500 text-xs">(12)</text>
+                    <text x="120" y="210" className="fill-gray-500 text-xs">(9)</text>
+                    <text x="180" y="210" className="fill-gray-500 text-xs">(15)</text>
+                    <text x="200" y="90" className="fill-gray-500 text-xs">(23)</text>
+                    <text x="150" y="160" className="fill-gray-500 text-xs">B</text>
+                  </g>
+
+                  {/* Team names (outside rotation) */}
                   <text x="150" y="35" textAnchor="middle" className="fill-gray-800 font-bold text-sm">石牌國小</text>
                   <text x="260" y="155" textAnchor="start" className="fill-gray-800 font-bold text-sm">三玉國小</text>
                   <text x="150" y="275" textAnchor="middle" className="fill-gray-800 font-bold text-sm">復興實小</text>
                   <text x="40" y="155" textAnchor="end" className="fill-gray-800 font-bold text-sm">敦化國小</text>
-
-                  {/* Match numbers */}
-                  <text x="120" y="90" className="fill-gray-500 text-xs">(6)</text>
-                  <text x="180" y="90" className="fill-gray-500 text-xs">(20)</text>
-                  <text x="150" y="140" className="fill-gray-500 text-xs">(12)</text>
-                  <text x="120" y="210" className="fill-gray-500 text-xs">(9)</text>
-                  <text x="180" y="210" className="fill-gray-500 text-xs">(15)</text>
-                  <text x="200" y="90" className="fill-gray-500 text-xs">(23)</text>
-                  <text x="150" y="160" className="fill-gray-500 text-xs">B</text>
                 </svg>
               </div>
             </div>
