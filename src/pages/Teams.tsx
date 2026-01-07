@@ -110,11 +110,11 @@ function Teams() {
               <line x1="150" y1="80" x2="350" y2="280" stroke="#DC2626" strokeWidth="2" />
               <line x1="350" y1="80" x2="150" y2="280" stroke="#DC2626" strokeWidth="2" />
 
-              {/* Team names at corners */}
-              <text x="250" y="65" textAnchor="middle" className="fill-gray-800 font-bold text-sm">光復國小</text>
-              <text x="365" y="185" textAnchor="start" className="fill-gray-800 font-bold text-sm">士林國小</text>
-              <text x="250" y="305" textAnchor="middle" className="fill-gray-800 font-bold text-sm">麗山國小</text>
-              <text x="135" y="185" textAnchor="end" className="fill-gray-800 font-bold text-sm">石牌國小</text>
+              {/* Team names at actual corners */}
+              <text x="150" y="65" textAnchor="middle" className="fill-gray-800 font-bold text-sm">光復國小</text>
+              <text x="365" y="85" textAnchor="start" className="fill-gray-800 font-bold text-sm">士林國小</text>
+              <text x="350" y="295" textAnchor="middle" className="fill-gray-800 font-bold text-sm">麗山國小</text>
+              <text x="135" y="285" textAnchor="end" className="fill-gray-800 font-bold text-sm">石牌國小</text>
 
               {/* Match numbers */}
               <text x="185" y="125" className="fill-gray-500 text-xs">(1)</text>
@@ -122,7 +122,7 @@ function Teams() {
               <text x="250" y="175" className="fill-gray-500 text-xs">(11)</text>
               <text x="185" y="240" className="fill-gray-500 text-xs">(31)</text>
               <text x="315" y="240" className="fill-gray-500 text-xs">(30)</text>
-              <text x="285" y="65" className="fill-gray-500 text-xs">(21)</text>
+              <text x="315" y="105" className="fill-gray-500 text-xs">(21)</text>
             </svg>
           </div>
         )}
@@ -167,11 +167,11 @@ function Teams() {
                   <line x1="100" y1="60" x2="300" y2="240" stroke="#DC2626" strokeWidth="2" />
                   <line x1="300" y1="60" x2="100" y2="240" stroke="#DC2626" strokeWidth="2" />
 
-                  {/* Team names at corners */}
-                  <text x="200" y="45" textAnchor="middle" className="fill-gray-800 font-bold text-sm">麗山國小</text>
-                  <text x="315" y="155" textAnchor="start" className="fill-gray-800 font-bold text-sm">三玉國小</text>
-                  <text x="200" y="265" textAnchor="middle" className="fill-gray-800 font-bold text-sm">敦化國小</text>
-                  <text x="85" y="155" textAnchor="end" className="fill-gray-800 font-bold text-sm">士林國小</text>
+                  {/* Team names at actual corners */}
+                  <text x="100" y="45" textAnchor="middle" className="fill-gray-800 font-bold text-sm">麗山國小</text>
+                  <text x="315" y="65" textAnchor="start" className="fill-gray-800 font-bold text-sm">三玉國小</text>
+                  <text x="300" y="255" textAnchor="middle" className="fill-gray-800 font-bold text-sm">敦化國小</text>
+                  <text x="85" y="245" textAnchor="end" className="fill-gray-800 font-bold text-sm">士林國小</text>
 
                   {/* Match numbers */}
                   <text x="135" y="105" className="fill-gray-500 text-xs">(4)</text>
@@ -179,7 +179,7 @@ function Teams() {
                   <text x="200" y="145" className="fill-gray-500 text-xs">(17)</text>
                   <text x="135" y="200" className="fill-gray-500 text-xs">(24)</text>
                   <text x="265" y="200" className="fill-gray-500 text-xs">(25)</text>
-                  <text x="235" y="45" className="fill-gray-500 text-xs">(13)</text>
+                  <text x="265" y="85" className="fill-gray-500 text-xs">(13)</text>
                   <text x="200" y="165" className="fill-gray-500 text-xs">B</text>
                 </svg>
               </div>
@@ -236,11 +236,11 @@ function Teams() {
                   <line x1="100" y1="60" x2="300" y2="240" stroke="#DC2626" strokeWidth="2" />
                   <line x1="300" y1="60" x2="100" y2="240" stroke="#DC2626" strokeWidth="2" />
 
-                  {/* Team names at corners */}
-                  <text x="200" y="45" textAnchor="middle" className="fill-gray-800 font-bold text-sm">光復國小</text>
-                  <text x="315" y="155" textAnchor="start" className="fill-gray-800 font-bold text-sm">國語實小</text>
-                  <text x="200" y="265" textAnchor="middle" className="fill-gray-800 font-bold text-sm">麗山國小</text>
-                  <text x="85" y="155" textAnchor="end" className="fill-gray-800 font-bold text-sm">三興國小</text>
+                  {/* Team names at actual corners */}
+                  <text x="100" y="45" textAnchor="middle" className="fill-gray-800 font-bold text-sm">光復國小</text>
+                  <text x="315" y="65" textAnchor="start" className="fill-gray-800 font-bold text-sm">國語實小</text>
+                  <text x="300" y="255" textAnchor="middle" className="fill-gray-800 font-bold text-sm">麗山國小</text>
+                  <text x="85" y="245" textAnchor="end" className="fill-gray-800 font-bold text-sm">三興國小</text>
 
                   {/* Match numbers */}
                   <text x="135" y="105" className="fill-gray-500 text-xs">(3)</text>
@@ -248,7 +248,7 @@ function Teams() {
                   <text x="200" y="145" className="fill-gray-500 text-xs">(16)</text>
                   <text x="135" y="200" className="fill-gray-500 text-xs">(19)</text>
                   <text x="265" y="200" className="fill-gray-500 text-xs">(22)</text>
-                  <text x="235" y="45" className="fill-gray-500 text-xs">(14)</text>
+                  <text x="265" y="85" className="fill-gray-500 text-xs">(14)</text>
                   <text x="200" y="165" className="fill-gray-500 text-xs">A</text>
                 </svg>
               </div>
@@ -267,11 +267,11 @@ function Teams() {
                   <line x1="100" y1="60" x2="300" y2="240" stroke="#DC2626" strokeWidth="2" />
                   <line x1="300" y1="60" x2="100" y2="240" stroke="#DC2626" strokeWidth="2" />
 
-                  {/* Team names at corners */}
-                  <text x="200" y="45" textAnchor="middle" className="fill-gray-800 font-bold text-sm">石牌國小</text>
-                  <text x="315" y="155" textAnchor="start" className="fill-gray-800 font-bold text-sm">三玉國小</text>
-                  <text x="200" y="265" textAnchor="middle" className="fill-gray-800 font-bold text-sm">復興實小</text>
-                  <text x="85" y="155" textAnchor="end" className="fill-gray-800 font-bold text-sm">敦化國小</text>
+                  {/* Team names at actual corners */}
+                  <text x="100" y="45" textAnchor="middle" className="fill-gray-800 font-bold text-sm">石牌國小</text>
+                  <text x="315" y="65" textAnchor="start" className="fill-gray-800 font-bold text-sm">三玉國小</text>
+                  <text x="300" y="255" textAnchor="middle" className="fill-gray-800 font-bold text-sm">復興實小</text>
+                  <text x="85" y="245" textAnchor="end" className="fill-gray-800 font-bold text-sm">敦化國小</text>
 
                   {/* Match numbers */}
                   <text x="135" y="105" className="fill-gray-500 text-xs">(6)</text>
@@ -279,7 +279,7 @@ function Teams() {
                   <text x="200" y="145" className="fill-gray-500 text-xs">(12)</text>
                   <text x="135" y="200" className="fill-gray-500 text-xs">(9)</text>
                   <text x="265" y="200" className="fill-gray-500 text-xs">(15)</text>
-                  <text x="235" y="45" className="fill-gray-500 text-xs">(23)</text>
+                  <text x="265" y="85" className="fill-gray-500 text-xs">(23)</text>
                   <text x="200" y="165" className="fill-gray-500 text-xs">B</text>
                 </svg>
               </div>
