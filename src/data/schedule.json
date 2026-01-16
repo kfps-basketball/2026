@@ -16,8 +16,8 @@
       "division": "四年級",
       "teamA": "光復國小",
       "teamB": "石牌國小",
-      "scoreA": null,
-      "scoreB": null
+      "scoreA": 21,
+      "scoreB": 15
     },
     {
       "id": 2,
@@ -27,8 +27,8 @@
       "division": "四年級",
       "teamA": "士林國小",
       "teamB": "麗山國小",
-      "scoreA": null,
-      "scoreB": null
+      "scoreA": 14,
+      "scoreB": 16
     },
     {
       "id": 3,
@@ -38,8 +38,8 @@
       "division": "六年級 (A)",
       "teamA": "光復國小",
       "teamB": "三興國小",
-      "scoreA": null,
-      "scoreB": null
+      "scoreA": 32,
+      "scoreB": 14
     },
     {
       "id": 4,
@@ -49,8 +49,8 @@
       "division": "五年級 (B)",
       "teamA": "麗山國小",
       "teamB": "士林國小",
-      "scoreA": null,
-      "scoreB": null
+      "scoreA": 18,
+      "scoreB": 21
     },
     {
       "id": 5,
@@ -60,8 +60,8 @@
       "division": "五年級 (A)",
       "teamA": "光復國小",
       "teamB": "石牌國小",
-      "scoreA": null,
-      "scoreB": null
+      "scoreA": 13,
+      "scoreB": 31
     },
     {
       "id": 6,
@@ -71,8 +71,8 @@
       "division": "六年級 (B)",
       "teamA": "石牌國小",
       "teamB": "敦化國小",
-      "scoreA": null,
-      "scoreB": null
+      "scoreA": 38,
+      "scoreB": 18
     },
     {
       "id": 7,
@@ -82,8 +82,8 @@
       "division": "五年級 (B)",
       "teamA": "三玉國小",
       "teamB": "敦化國小",
-      "scoreA": null,
-      "scoreB": null
+      "scoreA": 18,
+      "scoreB": 16
     },
     {
       "id": 8,
@@ -93,8 +93,8 @@
       "division": "六年級 (A)",
       "teamA": "麗山國小",
       "teamB": "國語實小",
-      "scoreA": null,
-      "scoreB": null
+      "scoreA": 37,
+      "scoreB": 16
     },
     {
       "id": 9,
@@ -104,8 +104,8 @@
       "division": "六年級 (B)",
       "teamA": "石牌國小",
       "teamB": "復興實小",
-      "scoreA": null,
-      "scoreB": null
+      "scoreA": 14,
+      "scoreB": 11
     },
     {
       "id": 10,
@@ -115,8 +115,8 @@
       "division": "五年級 (A)",
       "teamA": "石牌國小",
       "teamB": "國語實小",
-      "scoreA": null,
-      "scoreB": null
+      "scoreA": 29,
+      "scoreB": 18
     },
     {
       "id": 11,
@@ -126,8 +126,8 @@
       "division": "四年級",
       "teamA": "石牌國小",
       "teamB": "麗山國小",
-      "scoreA": null,
-      "scoreB": null
+      "scoreA": 8,
+      "scoreB": 28
     },
     {
       "id": 12,
