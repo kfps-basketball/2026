@@ -1,8 +1,19 @@
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
+import { useSearchParams } from 'react-router-dom'
 import scheduleData from '../data/schedule.json'
 
 function Schedule() {
-  const [selectedDay, setSelectedDay] = useState(1)
+  const [searchParams, setSearchParams] = useSearchParams()
+  const dayParam = searchParams.get('day')
+  const initialDay = dayParam ? parseInt(dayParam, 10) : 1
+  const [selectedDay, setSelectedDay] = useState(
+    initialDay >= 1 && initialDay <= 3 ? initialDay : 1
+  )
+
+  useEffect(() => {
+    // Update URL when selectedDay changes
+    setSearchParams({ day: selectedDay.toString() }, { replace: true })
+  }, [selectedDay, setSearchParams])
 
   const days = [
     { day: 1, date: '1月16日（五）' },
