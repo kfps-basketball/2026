@@ -357,8 +357,8 @@
       "division": "六年級排名賽",
       "teamA": "國語實小",
       "teamB": "敦化國小",
-      "scoreA": null,
-      "scoreB": null
+      "scoreA": 24,
+      "scoreB": 28
     },
     {
       "id": 33,
@@ -368,8 +368,8 @@
       "division": "四年級",
       "teamA": "光復國小",
       "teamB": "麗山國小",
-      "scoreA": null,
-      "scoreB": null
+      "scoreA": 13,
+      "scoreB": 28
     },
     {
       "id": 34,
