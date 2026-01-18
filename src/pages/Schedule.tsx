@@ -17,77 +17,6 @@ function Schedule() {
       <h1 className="text-4xl font-bold mb-8 text-center text-primary">賽程表</h1>
       <p className="text-center text-gray-600 mb-8">比賽地點：光復國小活動中心</p>
 
-      {/* Rankings Section */}
-      <div className="grid md:grid-cols-2 gap-6 mb-8">
-        {/* 五年級 Rankings */}
-        <div className="bg-white rounded-lg shadow-lg p-6">
-          <h2 className="text-2xl font-bold text-center text-primary mb-4">五年級排名</h2>
-          <div className="space-y-3">
-            <div className="flex items-center justify-between p-4 bg-gradient-to-r from-yellow-400 to-yellow-500 rounded-lg shadow-md">
-              <div className="flex items-center space-x-3">
-                <div className="text-3xl">🥇</div>
-                <span className="font-bold text-white text-lg">冠軍</span>
-              </div>
-              <span className="font-bold text-white text-lg">
-                {scheduleData.rankings['五年級'].champion}
-              </span>
-            </div>
-            <div className="flex items-center justify-between p-4 bg-gradient-to-r from-gray-300 to-gray-400 rounded-lg shadow-md">
-              <div className="flex items-center space-x-3">
-                <div className="text-3xl">🥈</div>
-                <span className="font-bold text-white text-lg">亞軍</span>
-              </div>
-              <span className="font-bold text-white text-lg">
-                {scheduleData.rankings['五年級'].runnerUp}
-              </span>
-            </div>
-            <div className="flex items-center justify-between p-4 bg-gradient-to-r from-orange-400 to-orange-500 rounded-lg shadow-md">
-              <div className="flex items-center space-x-3">
-                <div className="text-3xl">🥉</div>
-                <span className="font-bold text-white text-lg">季軍</span>
-              </div>
-              <span className="font-bold text-white text-lg">
-                {scheduleData.rankings['五年級'].third}
-              </span>
-            </div>
-          </div>
-        </div>
-
-        {/* 六年級 Rankings */}
-        <div className="bg-white rounded-lg shadow-lg p-6">
-          <h2 className="text-2xl font-bold text-center text-primary mb-4">六年級排名</h2>
-          <div className="space-y-3">
-            <div className="flex items-center justify-between p-4 bg-gradient-to-r from-yellow-400 to-yellow-500 rounded-lg shadow-md">
-              <div className="flex items-center space-x-3">
-                <div className="text-3xl">🥇</div>
-                <span className="font-bold text-white text-lg">冠軍</span>
-              </div>
-              <span className="font-bold text-white text-lg">
-                {scheduleData.rankings['六年級'].champion}
-              </span>
-            </div>
-            <div className="flex items-center justify-between p-4 bg-gradient-to-r from-gray-300 to-gray-400 rounded-lg shadow-md">
-              <div className="flex items-center space-x-3">
-                <div className="text-3xl">🥈</div>
-                <span className="font-bold text-white text-lg">亞軍</span>
-              </div>
-              <span className="font-bold text-white text-lg">
-                {scheduleData.rankings['六年級'].runnerUp}
-              </span>
-            </div>
-            <div className="flex items-center justify-between p-4 bg-gradient-to-r from-orange-400 to-orange-500 rounded-lg shadow-md">
-              <div className="flex items-center space-x-3">
-                <div className="text-3xl">🥉</div>
-                <span className="font-bold text-white text-lg">季軍</span>
-              </div>
-              <span className="font-bold text-white text-lg">
-                {scheduleData.rankings['六年級'].third}
-              </span>
-            </div>
-          </div>
-        </div>
-      </div>
-
       {/* Day Tabs */}
       <div className="flex flex-wrap justify-center gap-3 mb-8">
         {days.map((day) => (
@@ -187,6 +116,82 @@ function Schedule() {
       {dayMatches.length === 0 && (
         <div className="text-center py-12 text-gray-500 bg-white rounded-lg shadow-md">
           此日期暫無賽程安排
+        </div>
+      )}
+
+      {/* Rankings Section - Only show on Day 3 */}
+      {selectedDay === 3 && (
+        <div className="mt-12">
+          <h2 className="text-3xl font-bold mb-6 text-center text-primary">最終排名</h2>
+          <div className="grid md:grid-cols-2 gap-6">
+            {/* 五年級 Rankings */}
+            <div className="bg-white rounded-lg shadow-lg p-6">
+              <h3 className="text-2xl font-bold text-center text-primary mb-4">五年級排名</h3>
+              <div className="space-y-3">
+                <div className="flex items-center justify-between p-4 bg-gradient-to-r from-yellow-400 to-yellow-500 rounded-lg shadow-md">
+                  <div className="flex items-center space-x-3">
+                    <div className="text-3xl">🥇</div>
+                    <span className="font-bold text-white text-lg">冠軍</span>
+                  </div>
+                  <span className="font-bold text-white text-lg">
+                    {scheduleData.rankings['五年級'].champion}
+                  </span>
+                </div>
+                <div className="flex items-center justify-between p-4 bg-gradient-to-r from-gray-300 to-gray-400 rounded-lg shadow-md">
+                  <div className="flex items-center space-x-3">
+                    <div className="text-3xl">🥈</div>
+                    <span className="font-bold text-white text-lg">亞軍</span>
+                  </div>
+                  <span className="font-bold text-white text-lg">
+                    {scheduleData.rankings['五年級'].runnerUp}
+                  </span>
+                </div>
+                <div className="flex items-center justify-between p-4 bg-gradient-to-r from-orange-400 to-orange-500 rounded-lg shadow-md">
+                  <div className="flex items-center space-x-3">
+                    <div className="text-3xl">🥉</div>
+                    <span className="font-bold text-white text-lg">季軍</span>
+                  </div>
+                  <span className="font-bold text-white text-lg">
+                    {scheduleData.rankings['五年級'].third}
+                  </span>
+                </div>
+              </div>
+            </div>
+
+            {/* 六年級 Rankings */}
+            <div className="bg-white rounded-lg shadow-lg p-6">
+              <h3 className="text-2xl font-bold text-center text-primary mb-4">六年級排名</h3>
+              <div className="space-y-3">
+                <div className="flex items-center justify-between p-4 bg-gradient-to-r from-yellow-400 to-yellow-500 rounded-lg shadow-md">
+                  <div className="flex items-center space-x-3">
+                    <div className="text-3xl">🥇</div>
+                    <span className="font-bold text-white text-lg">冠軍</span>
+                  </div>
+                  <span className="font-bold text-white text-lg">
+                    {scheduleData.rankings['六年級'].champion}
+                  </span>
+                </div>
+                <div className="flex items-center justify-between p-4 bg-gradient-to-r from-gray-300 to-gray-400 rounded-lg shadow-md">
+                  <div className="flex items-center space-x-3">
+                    <div className="text-3xl">🥈</div>
+                    <span className="font-bold text-white text-lg">亞軍</span>
+                  </div>
+                  <span className="font-bold text-white text-lg">
+                    {scheduleData.rankings['六年級'].runnerUp}
+                  </span>
+                </div>
+                <div className="flex items-center justify-between p-4 bg-gradient-to-r from-orange-400 to-orange-500 rounded-lg shadow-md">
+                  <div className="flex items-center space-x-3">
+                    <div className="text-3xl">🥉</div>
+                    <span className="font-bold text-white text-lg">季軍</span>
+                  </div>
+                  <span className="font-bold text-white text-lg">
+                    {scheduleData.rankings['六年級'].third}
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       )}
     </div>
