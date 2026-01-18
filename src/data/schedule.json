@@ -313,8 +313,8 @@
       "division": "五年級四強",
       "teamA": "石牌國小",
       "teamB": "麗山國小",
-      "scoreA": null,
-      "scoreB": null
+      "scoreA": 24,
+      "scoreB": 17
     },
     {
       "id": 29,
@@ -324,8 +324,8 @@
       "division": "五年級四強",
       "teamA": "士林國小",
       "teamB": "國語實小",
-      "scoreA": null,
-      "scoreB": null
+      "scoreA": 32,
+      "scoreB": 13
     },
     {
       "id": 30,
@@ -335,8 +335,8 @@
       "division": "四年級",
       "teamA": "士林國小",
       "teamB": "石牌國小",
-      "scoreA": null,
-      "scoreB": null
+      "scoreA": 40,
+      "scoreB": 12
     },
     {
       "id": 31,
@@ -345,9 +345,9 @@
       "time": "13:00",
       "division": "五年級排名賽",
       "teamA": "光復國小",
-      "teamB": "三玉國小",
-      "scoreA": null,
-      "scoreB": null
+      "teamB": "敦化國小",
+      "scoreA": 9,
+      "scoreB": 30
     },
     {
       "id": 32,
@@ -377,8 +377,8 @@
       "date": "2026-01-18",
       "time": "15:30",
       "division": "五年級季軍戰",
-      "teamA": "26敗",
-      "teamB": "27敗",
+      "teamA": "麗山國小",
+      "teamB": "國語實小",
       "scoreA": null,
       "scoreB": null
     },
@@ -399,8 +399,8 @@
       "date": "2026-01-18",
       "time": "17:10",
       "division": "五年級冠軍戰",
-      "teamA": "28勝",
-      "teamB": "29勝",
+      "teamA": "石牌國小",
+      "teamB": "士林國小",
       "scoreA": null,
       "scoreB": null
     },
