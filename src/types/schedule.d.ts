@@ -1,4 +1,4 @@
-declare module '../data/schedule.json' {
+declare module '*/schedule.json' {
   interface Rankings {
     五年級: {
       champion: string

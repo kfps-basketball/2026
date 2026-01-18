@@ -1,4 +1,16 @@
 {
+  "rankings": {
+    "五年級": {
+      "champion": "TBD",
+      "runnerUp": "TBD",
+      "third": "麗山國小"
+    },
+    "六年級": {
+      "champion": "TBD",
+      "runnerUp": "TBD",
+      "third": "三玉國小"
+    }
+  },
   "matches": [
     {
       "id": 0,

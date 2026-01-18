@@ -1,6 +1,9 @@
 import { useState, useEffect } from 'react'
 import { useSearchParams } from 'react-router-dom'
-import scheduleData from '../data/schedule.json'
+import scheduleDataRaw from '../data/schedule.json'
+import type { ScheduleData } from '../types/schedule'
+
+const scheduleData = scheduleDataRaw as ScheduleData
 
 function Schedule() {
   const [searchParams, setSearchParams] = useSearchParams()
