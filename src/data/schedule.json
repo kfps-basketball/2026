@@ -1,13 +1,13 @@
 {
   "rankings": {
     "五年級": {
-      "champion": "TBD",
-      "runnerUp": "TBD",
+      "champion": "石牌國小",
+      "runnerUp": "士林國小",
       "third": "麗山國小"
     },
     "六年級": {
-      "champion": "TBD",
-      "runnerUp": "TBD",
+      "champion": "石牌國小",
+      "runnerUp": "光復國小",
       "third": "三玉國小"
     }
   },
@@ -413,8 +413,8 @@
       "division": "五年級冠軍戰",
       "teamA": "石牌國小",
       "teamB": "士林國小",
-      "scoreA": null,
-      "scoreB": null
+      "scoreA": 20,
+      "scoreB": 15
     },
     {
       "id": 37,
@@ -424,8 +424,8 @@
       "division": "六年級冠軍戰",
       "teamA": "石牌國小",
       "teamB": "光復國小",
-      "scoreA": null,
-      "scoreB": null
+      "scoreA": 22,
+      "scoreB": 20
     }
   ]
 }
